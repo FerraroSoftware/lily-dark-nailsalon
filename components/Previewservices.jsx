@@ -29,7 +29,7 @@ export default function Previewservices() {
                 Pedicures
               </h3>
               <p className="mt-2 text-lg font-normal text-opacity-50 text-white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pedicures pamper tired feet with soothing massages.
               </p>
               <a
                 href="#"
@@ -71,7 +71,7 @@ export default function Previewservices() {
                 Manicures
               </h3>
               <p className="mt-2 text-lg font-normal text-opacity-50 text-white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Manicures add shine and style to fingertips.
               </p>
               <a
                 href="#"
@@ -113,7 +113,7 @@ export default function Previewservices() {
                 Waxing
               </h3>
               <p className="mt-2 text-lg font-normal text-opacity-50 text-white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Waxing removes unwanted hair for smooth skin.
               </p>
               <a
                 href="#"

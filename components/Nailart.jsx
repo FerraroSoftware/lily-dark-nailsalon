@@ -70,7 +70,7 @@ export default function Nailart() {
         <h2 className="header mx-auto text-center pb-10">Nail Art Work</h2>
         <ul
           role="list"
-          className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-3 xl:gap-x-8 max-w-7xl mx-auto px-10"
+          className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 sm:gap-x-6 lg:grid-cols-3 xl:gap-x-8 max-w-7xl mx-auto px-10"
         >
           {files.map((file) => (
             <li key={file.source} className="relative">
