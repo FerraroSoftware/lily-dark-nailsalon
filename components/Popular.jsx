@@ -7,8 +7,8 @@ export default function Popular() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="header">Popular Packages</h2>
           <p className="subheader">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis.
+            Find out which of our nail packages are the most popular among our
+            customers and give them a try for yourself!
           </p>
         </div>
 
