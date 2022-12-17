@@ -13,7 +13,7 @@ export default function Hero() {
           // fill
           // style={{ objectFit: "cover" }}
           priority
-          style={{ height: "100%" }}
+          style={({ height: "100%" }, { objectFit: "fill" })}
           className="opacity-90 rounded-lg"
           // width={752}
           // height={749}
