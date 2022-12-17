@@ -121,7 +121,7 @@ export default function Popular() {
               <a
                 href="#"
                 title=""
-                className="inline-flex items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-zinc-400 rounded-full hover:bg-zinc-900"
+                className="block items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-zinc-400 rounded-full hover:bg-zinc-900"
                 role="button"
               >
                 {" "}
@@ -242,7 +242,7 @@ export default function Popular() {
               <a
                 href="#"
                 title=""
-                className="inline-flex items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 rounded-full bg-zinc-900 hover:opacity-80 focus:opacity-80"
+                className="block items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 rounded-full bg-zinc-900 hover:opacity-80 focus:opacity-80"
                 role="button"
               >
                 {" "}
@@ -363,14 +363,14 @@ export default function Popular() {
               <a
                 href="#"
                 title=""
-                className="inline-flex items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-zinc-400 rounded-full hover:bg-zinc-900"
+                className=" block items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-zinc-400 rounded-full hover:bg-zinc-900"
                 role="button"
               >
                 {" "}
                 Book Now{" "}
               </a>
 
-              <p className="mt-10 text-sm text-gray-500">
+              <p className="mt-4 text-sm text-gray-500">
                 Also includes cut, file, foot scrub, callus treatment, massage,
                 hot towels, & polish.
               </p>
