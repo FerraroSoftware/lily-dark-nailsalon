@@ -106,7 +106,7 @@ export default function Footer() {
               </Link>
             </li>
           </ul>
-
+          <div className="p-4 lg:p-0"></div>
           <Link
             className="mt-8 text-lg font-normal text-zinc-300 lg:mt-0 hover:text-yell500"
             href="https://www.ferrarosoftware.com/"
