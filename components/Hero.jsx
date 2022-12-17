@@ -5,7 +5,7 @@ import bg from "../public/hero20.png";
 export default function Hero() {
   return (
     <div className="relative pt-48 pb-12  xl:pt-60 sm:pb-16 lg:pb-32 xl:pb-48 bg-gradient-to-r from-zinc-900 to-zinc-500">
-      <div className="absolute inset-0 translate-x-2/3 right-30">
+      <div className="absolute inset-0 md:translate-x-2/3 right-30">
         {/* <img className="object-cover w-full h-full" src="/bg.svg" alt="" /> */}
         <Image
           src={bg}
@@ -13,8 +13,8 @@ export default function Hero() {
           // fill
           // style={{ objectFit: "cover" }}
           priority
-          style={({ height: "100%" }, { objectFit: "fill" })}
-          className="opacity-90 rounded-lg"
+          style={{ height: "100%" }}
+          className="opacity-50 md:opacity-90 rounded-lg"
           // width={752}
           // height={749}
         />
