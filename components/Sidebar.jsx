@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Sidebar() {
   return (
-    <div class="fixed hidden left-0 top-1/4 z-50 px-5 py-3 bg-transparent md:flex flex-col space-y-3">
+    <div class="fixed hidden md:right-0 lg:left-0 top-1/4 z-50 px-5 py-3 bg-transparent md:flex flex-col space-y-3">
       <Link
         href="https://www.facebook.com/flexispaandwellness"
         title="Share on Facebook"
