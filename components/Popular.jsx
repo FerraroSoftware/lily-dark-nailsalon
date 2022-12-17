@@ -111,7 +111,7 @@ export default function Popular() {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  <span className="pb-0.5 text-base font-medium text-zinc-800 border-black border-dashed">
+                  <span className="pb-0.5 text-base font-medium text-zinc-800 border-black border-dashed border-b">
                     {" "}
                     Grapefruit Soak{" "}
                   </span>
