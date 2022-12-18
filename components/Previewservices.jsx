@@ -10,8 +10,8 @@ export default function Previewservices() {
             <span className="header"> Our Services </span>
           </h2>
           <p className="subheader">
-            Create screens directly in Method or add your images from Sketch or
-            Figma. You can even sync designs from your cloud storage!
+            Make an appointment with our experienced staff for a relaxing,
+            pampering experience.
           </p>
         </div>
 
