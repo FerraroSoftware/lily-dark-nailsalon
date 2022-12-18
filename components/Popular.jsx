@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export default function Popular() {
   return (
     <section className="py-10  sm:py-16 lg:py-24">
@@ -118,15 +118,17 @@ export default function Popular() {
                 </li>
               </ul>
 
-              <a
-                href="#"
+              <Link
+                href="https://booksy.com/en-us/472221_flex-i-nails-spa_nail-salon_134763_orlando"
                 title=""
                 className="block items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-zinc-400 rounded-full hover:bg-zinc-900"
                 role="button"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {" "}
                 Book Now{" "}
-              </a>
+              </Link>
               <p className="mt-4 text-sm text-gray-500">
                 Also includes cut, file, foot scrub, callus treatment, massage,
                 hot towels, & polish.
@@ -239,15 +241,17 @@ export default function Popular() {
                 </li>
               </ul>
 
-              <a
-                href="#"
+              <Link
+                href="https://booksy.com/en-us/472221_flex-i-nails-spa_nail-salon_134763_orlando"
                 title=""
                 className="block items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 rounded-full bg-zinc-900 hover:opacity-80 focus:opacity-80"
                 role="button"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {" "}
                 Book Now{" "}
-              </a>
+              </Link>
               <p className="mt-4 text-sm text-gray-500">
                 Also includes cut, file, foot scrub, callus treatment, massage,
                 hot towels, & polish.
@@ -360,15 +364,17 @@ export default function Popular() {
                 </li>
               </ul>
 
-              <a
-                href="#"
+              <Link
+                href="https://booksy.com/en-us/472221_flex-i-nails-spa_nail-salon_134763_orlando"
                 title=""
                 className=" block items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-zinc-400 rounded-full hover:bg-zinc-900"
                 role="button"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 {" "}
                 Book Now{" "}
-              </a>
+              </Link>
 
               <p className="mt-4 text-sm text-gray-500">
                 Also includes cut, file, foot scrub, callus treatment, massage,

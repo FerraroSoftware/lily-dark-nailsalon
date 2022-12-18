@@ -1,17 +1,4 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+import Link from "next/link";
 const files = [
   {
     nailpic: "Spray Nails",
@@ -100,8 +87,8 @@ export default function Nailart() {
           ))}
         </ul>
         <div className="mt-10 text-center">
-          <a
-            href="#"
+          <Link
+            href="/gallery"
             title=""
             className="
                inline-flex
@@ -140,7 +127,7 @@ export default function Nailart() {
                 d="M13 7l5 5m0 0l-5 5m5-5H6"
               />
             </svg>
-          </a>
+          </Link>
         </div>
       </section>
     </>

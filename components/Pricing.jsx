@@ -211,7 +211,10 @@ export default function Pricing() {
   });
 
   return (
-    <div className="w-full lg:max-w-5xl md:max-w-3xl max-w-2xl px-2 py-16 sm:px-0 mx-auto">
+    <div
+      className="w-full lg:max-w-5xl md:max-w-3xl max-w-2xl px-2 py-16 sm:px-0 mx-auto"
+      id="pricinglist"
+    >
       <div className="max-w-2xl pb-10 mx-auto text-center">
         <h2 className="header">Our Services</h2>
         <p className="mt-6 text-lg font-normal text-zinc-300 ">
@@ -277,7 +280,9 @@ export default function Pricing() {
       </Tab.Group>
       <div className="flex items-center mt-8 space-x-3 sm:space-x-4 justify-center">
         <Link
-          href="#"
+          href="https://booksy.com/en-us/472221_flex-i-nails-spa_nail-salon_134763_orlando"
+          target="_blank"
+          rel="noopener noreferrer"
           title=""
           className="
             inline-flex
@@ -285,7 +290,6 @@ export default function Pricing() {
             justify-center
             px-14
             py-2
-            
             text-base
             font-semibold
             transition-all
@@ -304,7 +308,7 @@ export default function Pricing() {
         </Link>
 
         <Link
-          href="#"
+          href="/team"
           title=""
           className="
               inline-flex
@@ -312,7 +316,6 @@ export default function Pricing() {
               justify-center
               px-5
               py-2
-              
               text-base
               font-semibold
               transition-all
@@ -327,8 +330,7 @@ export default function Pricing() {
               focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary
               hover:text-black
               sm:text-lg
-              focus:ring-offset-secondary
-                            "
+              focus:ring-offset-secondary"
           role="button"
         >
           See Team Members

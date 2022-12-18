@@ -49,7 +49,7 @@ export default function Getintouch() {
                 </a>
               </h3>
               <p className="mt-4 text-base font-normal text-gray-400">
-                Come see us for your next visit
+                Click the address to come see us for your next visit!
               </p>
             </div>
           </div>

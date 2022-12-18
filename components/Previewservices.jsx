@@ -31,8 +31,8 @@ export default function Previewservices() {
               <p className="mt-2 text-lg font-normal text-opacity-50 text-white">
                 Pedicures pamper tired feet with soothing massages.
               </p>
-              <a
-                href="#"
+              <Link
+                href="/services/#pricinglist"
                 title=""
                 className="inline-flex items-center justify-center mt-10 font-sans text-base font-normal text-white"
               >
@@ -54,7 +54,7 @@ export default function Previewservices() {
                   </svg>
                 </div>
                 <span className="absolute inset-0" aria-hidden="true"></span>
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -73,8 +73,8 @@ export default function Previewservices() {
               <p className="mt-2 text-lg font-normal text-opacity-50 text-white">
                 Manicures add shine and style to fingertips.
               </p>
-              <a
-                href="#"
+              <Link
+                href="/services/#pricinglist"
                 title=""
                 className="inline-flex items-center justify-center mt-10 font-sans text-base font-normal text-white"
               >
@@ -96,7 +96,7 @@ export default function Previewservices() {
                   </svg>
                 </div>
                 <span className="absolute inset-0" aria-hidden="true"></span>
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -115,8 +115,8 @@ export default function Previewservices() {
               <p className="mt-2 text-lg font-normal text-opacity-50 text-white">
                 Waxing removes unwanted hair for smooth skin.
               </p>
-              <a
-                href="#"
+              <Link
+                href="/services/#pricinglist"
                 title=""
                 className="inline-flex items-center justify-center mt-10 font-sans text-base font-normal text-white"
               >
@@ -138,7 +138,7 @@ export default function Previewservices() {
                   </svg>
                 </div>
                 <span className="absolute inset-0" aria-hidden="true"></span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

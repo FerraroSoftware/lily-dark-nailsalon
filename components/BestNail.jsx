@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export default function BestNail() {
   return (
     <section className="py-12  sm:py-16 lg:py-20" id="orlandoweekly">
@@ -35,14 +35,16 @@ export default function BestNail() {
                 work and aim to exceed your expectations every time you visit
                 us. We are pleased to announce that we have been rated number
                 one in
-                <a
+                <Link
                   // href="https://www.orlandoweekly.com/best-of/2019/goods-and-services/best-nail-salon-manicure-pedicure-25854723"
                   href="https://www.orlandoweekly.com/best-of/2022/health-beauty-wellness/best-day-spa-32360500"
                   className="text-yellow-400"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {" "}
                   Orlando Weekly{" "}
-                </a>{" "}
+                </Link>{" "}
                 for best day spa. Thank you for choosing us for all of your
                 needs.”
               </p>

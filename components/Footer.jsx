@@ -34,7 +34,11 @@ export default function Footer() {
                 </svg>
                 <span className="ml-5 text-lg font-normal text-zinc-300 hover:text-yell500">
                   {" "}
-                  <Link href="https://goo.gl/maps/8rffFXJEeEy7Yj5F9">
+                  <Link
+                    href="https://goo.gl/maps/8rffFXJEeEy7Yj5F9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     3402 Technological Ave Suite 208, Orlando, FL 32817
                   </Link>
                 </span>

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import bg from "../public/hero20.png";
-
+import Link from "next/link";
 export default function Hero() {
   return (
     <div className="relative pt-48 pb-12  xl:pt-60 sm:pb-16 lg:pb-32 xl:pb-48 bg-gradient-to-r from-zinc-900 to-zinc-500">
@@ -35,8 +35,8 @@ export default function Hero() {
               Rated Number One Nail Salon in Orlando
             </p>
             <div className="flex items-center justify-center mt-8 space-x-3 sm:space-x-4">
-              <a
-                href="#"
+              <Link
+                href="/services"
                 title=""
                 className="
                           inline-flex
@@ -62,10 +62,10 @@ export default function Hero() {
                 role="button"
               >
                 Services
-              </a>
+              </Link>
 
-              <a
-                href="#"
+              <Link
+                href="/gallery"
                 title=""
                 className="
                           inline-flex
@@ -94,7 +94,7 @@ export default function Hero() {
                 role="button"
               >
                 Nail Art
-              </a>
+              </Link>
             </div>
           </div>
         </div>

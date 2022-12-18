@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export default function Popular() {
   return (
     <section className="py-12  sm:py-16 lg:py-20">
@@ -22,8 +22,8 @@ export default function Popular() {
               <p className="mt-5 text-base font-normal leading-7 text-zinc-300 ">
                 Best for men, pamper your feet from your long hours of work.
               </p>
-              <a
-                href="#"
+              <Link
+                href="https://booksy.com/en-us/472221_flex-i-nails-spa_nail-salon_134763_orlando"
                 title=""
                 className="
                             inline-flex
@@ -43,9 +43,11 @@ export default function Popular() {
                             hover:bg-zinc-500
                         "
                 role="button"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Book Appointment
-              </a>
+                Book Now
+              </Link>
 
               <p className="mt-8 text-base font-bold text-zinc-200 ">
                 What{"'"}s included:
@@ -80,9 +82,11 @@ export default function Popular() {
                   Gel x with soak off perfect for anyone looking to make a
                   statement to others
                 </p>
-                <a
-                  href="#"
+                <Link
+                  href="https://booksy.com/en-us/472221_flex-i-nails-spa_nail-salon_134763_orlando"
                   title=""
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="
                                 inline-flex
                                 items-center
@@ -104,7 +108,7 @@ export default function Popular() {
                   role="button"
                 >
                   Book Now
-                </a>
+                </Link>
 
                 <p className="mt-8 text-base font-bold text-zinc-900 ">
                   What{"'"}s included:
@@ -127,9 +131,11 @@ export default function Popular() {
               <p className="mt-5 text-base font-normal leading-7 text-zinc-300 ">
                 Best for those who need a day to themselves to be pampered
               </p>
-              <a
-                href="#"
+              <Link
+                href="https://booksy.com/en-us/472221_flex-i-nails-spa_nail-salon_134763_orlando"
                 title=""
+                target="_blank"
+                rel="noopener noreferrer"
                 className="
                             inline-flex
                             items-center
@@ -150,7 +156,7 @@ export default function Popular() {
                 role="button"
               >
                 Book Now
-              </a>
+              </Link>
 
               <p className="mt-8 text-base font-bold text-zinc-200 ">
                 What{"'"}s included:
