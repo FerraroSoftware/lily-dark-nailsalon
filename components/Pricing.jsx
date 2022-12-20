@@ -280,24 +280,26 @@ export default function Pricing() {
       </Tab.Group>
 
       <div className="flex flex-col items-center justify-center px-16 mt-8 space-y-4 sm:space-y-0 sm:space-x-4 sm:flex-row lg:mt-12 sm:px-0">
-        <a
-          href="#"
+        <Link
+          href="https://booksy.com/en-us/472221_flex-i-nails-spa_nail-salon_134763_orlando"
+          target="_blank"
+          rel="noopener noreferrer"
           title=""
           className="inline-flex items-center justify-center w-full px-8 py-4 text-base font-semibold text-white transition-all duration-200 bg-zinc-600 border border-transparent rounded-full sm:w-auto hover:bg-zinc-700 focus:bg-zinc-700"
           role="button"
         >
           {" "}
           Book Now{" "}
-        </a>
+        </Link>
 
-        <a
-          href="#"
+        <Link
+          href="/team"
           title=""
           className="inline-flex items-center justify-center w-full px-8 py-4 text-base font-semibold text-white transition-all duration-200 bg-transparent border-2 border-zinc-600 rounded-full sm:w-auto hover:bg-black hover:text-white focus:bg-black focus:text-white"
           role="button"
         >
-          See Team Members
-        </a>
+          Team Members
+        </Link>
       </div>
     </div>
   );

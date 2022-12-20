@@ -99,7 +99,9 @@ export default function Hannah() {
         </ul>
         <div className="mt-10 text-center">
           <a
-            href="#"
+            href="https://booksy.com/en-us/472221_flex-i-nails-spa_nail-salon_134763_orlando"
+            target="_blank"
+            rel="noopener noreferrer"
             title=""
             className="
                inline-flex
