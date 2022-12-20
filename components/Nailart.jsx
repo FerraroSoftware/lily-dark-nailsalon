@@ -115,10 +115,10 @@ export default function Nailart() {
                border-2 border-transparent
                rounded-full
                sm:leading-8
-               bg-zinc-400
+               bg-zinc-600
                sm:text-lg
                text-white
-               hover:bg-opacity-90
+               hover:bg-opacity-50
                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-secondary
            "
             role="button"

@@ -168,8 +168,8 @@ export default function Previewservices() {
             bg-zinc-900
             sm:text-lg
             text-white
-            hover:bg-zinc-300
-            hover:text-zinc-900
+            hover:bg-zinc-700
+            
             
             focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-secondary
            "

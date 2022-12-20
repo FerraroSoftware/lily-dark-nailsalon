@@ -40,7 +40,7 @@ export default function Popular() {
                             duration-200
                             border-2 border-gray-200
                             rounded-full
-                            hover:bg-zinc-500
+                            hover:bg-zinc-700
                         "
                 role="button"
                 target="_blank"
@@ -151,7 +151,7 @@ export default function Popular() {
                             duration-200
                             border-2 border-gray-200
                             rounded-full
-                            hover:bg-zinc-500
+                            hover:bg-zinc-700
                         "
                 role="button"
               >

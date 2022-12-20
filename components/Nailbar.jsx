@@ -27,7 +27,7 @@ export default function Nailbar() {
               </span>{" "}
               at Our Nail Bar
             </p>
-            <p className="mt-8 text-lg font-normal text-gray-400">
+            <p className="mt-8 text-lg font-normal text-gray-300">
               At our nail bar, we pride ourselves on offering the highest
               quality nail services in a relaxing and luxurious setting. Our
               skilled and professional nail technicians use only the best

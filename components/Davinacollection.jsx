@@ -118,7 +118,7 @@ export default function Davinacollection() {
                border-zinc-400
                sm:text-lg
                text-zinc-100
-               hover:bg-zinc-400
+               hover:bg-zinc-700
                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-secondary
            "
             role="button"

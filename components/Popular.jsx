@@ -121,7 +121,7 @@ export default function Popular() {
               <Link
                 href="https://booksy.com/en-us/472221_flex-i-nails-spa_nail-salon_134763_orlando"
                 title=""
-                className="block items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-zinc-400 rounded-full hover:bg-zinc-900"
+                className="block items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-zinc-600 rounded-full hover:bg-opacity-50"
                 role="button"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -244,7 +244,7 @@ export default function Popular() {
               <Link
                 href="https://booksy.com/en-us/472221_flex-i-nails-spa_nail-salon_134763_orlando"
                 title=""
-                className="block items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 rounded-full bg-zinc-900 hover:opacity-80 focus:opacity-80"
+                className="block items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 rounded-full bg-zinc-900 hover:opacity-50"
                 role="button"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -367,7 +367,7 @@ export default function Popular() {
               <Link
                 href="https://booksy.com/en-us/472221_flex-i-nails-spa_nail-salon_134763_orlando"
                 title=""
-                className=" block items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-zinc-400 rounded-full hover:bg-zinc-900"
+                className=" block items-center justify-center px-10 py-4 mt-10 text-base font-semibold text-white transition-all duration-200 bg-zinc-600 rounded-full hover:bg-opacity-50"
                 role="button"
                 target="_blank"
                 rel="noopener noreferrer"
