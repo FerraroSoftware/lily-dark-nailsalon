@@ -1,9 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
 import BestNail from "../components/BestNail";
 import Previewservices from "../components/Previewservices";
 import Hero from "../components/Hero";
-import styles from "../styles/Home.module.css";
 import Nailart from "../components/Nailart";
 import Popular from "../components/Popular";
 

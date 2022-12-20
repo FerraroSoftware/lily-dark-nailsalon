@@ -278,64 +278,7 @@ export default function Pricing() {
           ))}
         </Tab.Panels>
       </Tab.Group>
-      {/* <div className="flex items-center mt-8 space-x-3 sm:space-x-4 justify-center flex-col space-y-5">
-        <Link
-          href="https://booksy.com/en-us/472221_flex-i-nails-spa_nail-salon_134763_orlando"
-          target="_blank"
-          rel="noopener noreferrer"
-          title=""
-          className="
-            inline-flex
-            items-center
-            justify-center
-            px-14
-            py-2
-            text-base
-            font-semibold
-            transition-all
-            duration-200
-            border-2 border-transparent
-            rounded-full
-            sm:leading-8
-            bg-zinc-600
-            sm:text-lg
-            text-white
-            hover:bg-opacity-80
-                            "
-          role="button"
-        >
-          Book Now
-        </Link>
 
-        <Link
-          href="/team"
-          title=""
-          className="
-              inline-flex
-              items-center
-              justify-center
-              px-8
-              py-2
-              text-base
-              font-semibold
-              transition-all
-              duration-200
-              bg-transparent
-              border-2
-              rounded-full
-              sm:leading-8
-              text-white
-              border-primary
-              hover:bg-zinc-100
-              focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary
-              hover:text-black
-              sm:text-lg
-              focus:ring-offset-secondary"
-          role="button"
-        >
-          Team Members
-        </Link>
-      </div> */}
       <div className="flex flex-col items-center justify-center px-16 mt-8 space-y-4 sm:space-y-0 sm:space-x-4 sm:flex-row lg:mt-12 sm:px-0">
         <a
           href="#"

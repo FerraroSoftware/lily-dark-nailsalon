@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image from "next/image";
+import flexi from "../public/flexi-makes-you-sexi.png";
 export default function Nailbar() {
   return (
     <section className="py-12 sm:py-16 lg:py-20 xl:py-24">
@@ -7,9 +8,9 @@ export default function Nailbar() {
         <div className="grid grid-cols-1 gap-y-12 lg:grid-cols-7 lg:gap-x-20">
           <div className="lg:col-span-3 lg:order-last">
             <div className="relative overflow-hidden">
-              <img
+              <Image
                 className="object-cover w-full h-full"
-                src="/flexi-makes-you-sexi.png"
+                src={flexi}
                 alt=""
               />
             </div>

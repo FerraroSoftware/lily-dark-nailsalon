@@ -1,5 +1,16 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import nailart1 from "../public/nailart/nail-art-1.png";
+import nailart2 from "../public/nailart/nail-art-2.png";
+import nailart3 from "../public/nailart/nail-art-3.png";
+import nailart4 from "../public/nailart/nail-art-4.png";
+import nailart5 from "../public/nailart/nail-art-5.png";
+import nailart6 from "../public/nailart/nail-art-6.png";
+import nailart7 from "../public/nailart/nail-art-7.png";
+import nailart8 from "../public/nailart/nail-art-8.png";
+import nailart9 from "../public/nailart/nail-art-9.png";
+
 export default function Employees() {
   return (
     <>
@@ -14,11 +25,7 @@ export default function Employees() {
 
           <div className="grid grid-cols-1 gap-6 mt-12 sm:grid-cols-2 lg:grid-cols-4 sm:mt-16 lg:mt-20">
             <div className="flex flex-col overflow-hidden transition-all duration-200 transform bg-zinc-600 rounded hover:-translate-y-2">
-              <img
-                className="object-cover w-full"
-                src="/nailart/nail-art-8.png"
-                alt=""
-              />
+              <Image className="object-cover w-full" src={nailart8} alt="" />
               <div className="flex-1 px-4 py-5 sm:p-6">
                 <p className="text-lg font-semibold text-yell600">Davina</p>
                 <p className="text-base font-normal text-zinc-300">
@@ -40,11 +47,7 @@ export default function Employees() {
             </div>
 
             <div className="flex flex-col overflow-hidden transition-all duration-200 transform bg-zinc-600 rounded hover:-translate-y-2">
-              <img
-                className="object-cover w-full"
-                src="/nailart/nail-art-3.png"
-                alt=""
-              />
+              <Image className="object-cover w-full" src={nailart3} alt="" />
               <div className="flex-1 px-4 py-5 sm:p-6">
                 <p className="text-lg font-semibold text-yell600">Lily</p>
                 <p className="text-base font-normal text-zinc-300">
@@ -66,11 +69,7 @@ export default function Employees() {
             </div>
 
             <div className="flex flex-col overflow-hidden transition-all duration-200 transform bg-zinc-600 rounded hover:-translate-y-2">
-              <img
-                className="object-cover w-full"
-                src="/nailart/nail-art-4.png"
-                alt=""
-              />
+              <Image className="object-cover w-full" src={nailart4} alt="" />
               <div className="flex-1 px-4 py-5 sm:p-6">
                 <p className="text-lg font-semibold text-yell600">Jayla</p>
                 <p className="text-base font-normal text-zinc-300">
@@ -92,11 +91,7 @@ export default function Employees() {
             </div>
 
             <div className="flex flex-col overflow-hidden transition-all duration-200 transform bg-zinc-600 rounded hover:-translate-y-2">
-              <img
-                className="object-cover w-full"
-                src="/nailart/nail-art-5.png"
-                alt=""
-              />
+              <Image className="object-cover w-full" src={nailart5} alt="" />
               <div className="flex-1 px-4 py-5 sm:p-6">
                 <p className="text-lg font-semibold text-yell600">Hannah</p>
                 <p className="text-base font-normal text-zinc-300">
@@ -119,11 +114,7 @@ export default function Employees() {
 
             {/* second row */}
             <div className="flex flex-col overflow-hidden transition-all duration-200 transform bg-zinc-600 rounded hover:-translate-y-2">
-              <img
-                className="object-cover w-full"
-                src="/nailart/nail-art-8.png"
-                alt=""
-              />
+              <Image className="object-cover w-full" src={nailart8} alt="" />
               <div className="flex-1 px-4 py-5 sm:p-6">
                 <p className="text-lg font-semibold text-yell600">Davina</p>
                 <p className="text-base font-normal text-zinc-300">
@@ -145,11 +136,7 @@ export default function Employees() {
             </div>
 
             <div className="flex flex-col overflow-hidden transition-all duration-200 transform bg-zinc-600 rounded hover:-translate-y-2">
-              <img
-                className="object-cover w-full"
-                src="/nailart/nail-art-3.png"
-                alt=""
-              />
+              <Image className="object-cover w-full" src={nailart3} alt="" />
               <div className="flex-1 px-4 py-5 sm:p-6">
                 <p className="text-lg font-semibold text-yell600">Lily</p>
                 <p className="text-base font-normal text-zinc-300">
@@ -171,11 +158,7 @@ export default function Employees() {
             </div>
 
             <div className="flex flex-col overflow-hidden transition-all duration-200 transform bg-zinc-600 rounded hover:-translate-y-2">
-              <img
-                className="object-cover w-full"
-                src="/nailart/nail-art-4.png"
-                alt=""
-              />
+              <Image className="object-cover w-full" src={nailart4} alt="" />
               <div className="flex-1 px-4 py-5 sm:p-6">
                 <p className="text-lg font-semibold text-yell600">Jayla</p>
                 <p className="text-base font-normal text-zinc-300">
@@ -197,11 +180,7 @@ export default function Employees() {
             </div>
 
             <div className="flex flex-col overflow-hidden transition-all duration-200 transform bg-zinc-600 rounded hover:-translate-y-2">
-              <img
-                className="object-cover w-full"
-                src="/nailart/nail-art-5.png"
-                alt=""
-              />
+              <Image className="object-cover w-full" src={nailart5} alt="" />
               <div className="flex-1 px-4 py-5 sm:p-6">
                 <p className="text-lg font-semibold text-yell600">Hannah</p>
                 <p className="text-base font-normal text-zinc-300">

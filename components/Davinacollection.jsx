@@ -1,51 +1,61 @@
-import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import nailart1 from "../public/nailart/nail-art-1.png";
+import nailart2 from "../public/nailart/nail-art-2.png";
+import nailart3 from "../public/nailart/nail-art-3.png";
+import nailart4 from "../public/nailart/nail-art-4.png";
+import nailart5 from "../public/nailart/nail-art-5.png";
+import nailart6 from "../public/nailart/nail-art-6.png";
+import nailart7 from "../public/nailart/nail-art-7.png";
+import nailart8 from "../public/nailart/nail-art-8.png";
+import nailart9 from "../public/nailart/nail-art-9.png";
 
 const files = [
   {
     nailpic: "Spray Nails",
     size: "By Lily",
-    source: "/nailart/nail-art-8.png",
+    source: nailart8,
   },
   {
     nailpic: "Holy Nails",
     size: "By Lily",
-    source: "/nailart/nail-art-2.png",
+    source: nailart2,
   },
   {
     nailpic: "Black Dragons",
     size: "By Lily",
-    source: "/nailart/nail-art-1.png",
+    source: nailart1,
   },
 
   {
     nailpic: "Modern Nails",
     size: "By Lily",
-    source: "/nailart/nail-art-3.png",
+    source: nailart3,
   },
   {
     nailpic: "Spooky Nails",
     size: "By Lily",
-    source: "/nailart/nail-art-4.png",
+    source: nailart4,
   },
   {
     nailpic: "Astrology Nails",
     size: "By Lily",
-    source: "/nailart/nail-art-5.png",
+    source: nailart5,
   },
   {
     nailpic: "Colored Up",
     size: "By Lily",
-    source: "/nailart/nail-art-6.png",
+    source: nailart6,
   },
   {
     nailpic: "Peace Nails",
     size: "By Lily",
-    source: "/nailart/nail-art-7.png",
+    source: nailart7,
   },
   {
     nailpic: "Peace Nails",
     size: "By Lily",
-    source: "/nailart/nail-art-9.png",
+    source: nailart9,
   },
 
   // More files...
@@ -63,7 +73,7 @@ export default function Davinacollection() {
           {files.map((file) => (
             <li key={file.source} className="relative">
               <div className="group aspect-w-10 aspect-h-7 block w-full overflow-hidden rounded-lg bg-gray-100 ">
-                <img
+                <Image
                   src={file.source}
                   alt=""
                   className="pointer-events-none object-cover group-hover:opacity-75"

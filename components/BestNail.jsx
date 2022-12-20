@@ -1,25 +1,29 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import nails from "../public/nails.png";
+import orlando from "../public/orlando-weekly.png";
 export default function BestNail() {
   return (
     <section className="py-12  sm:py-16 lg:py-20" id="orlandoweekly">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-1 md:grid-cols-2 md:gap-16 gap-y-10">
           <div className="-mx-4 sm:mx-0 order-last md:order-first">
-            <img className="w-full max-w-md mx-auto" src="/nails.png" alt="" />
+            <Image
+              className="w-full max-w-md mx-auto"
+              src={nails}
+              alt="nails"
+            />
           </div>
 
           <div className="xl:pr-24">
-            <img
+            <Image
               className="w-auto h-auto rounded-lg"
-              src="/orlando-weekly.png"
-              alt=""
+              src={orlando}
+              alt="orlando weekly"
             />
 
             <blockquote className="mt-8 md:mt-16">
-              {/* <p className="text-xl font-medium leading-relaxed text-purple-500 ">
-                “Best Nail Salon 2019” - Orlando Weekly
-              </p> */}
               <p className="text-xl font-medium leading-relaxed text-yellow-400 ">
                 “Best Day Spa 2022” - Orlando Weekly
               </p>

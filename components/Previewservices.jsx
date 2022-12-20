@@ -1,6 +1,9 @@
 import Link from "next/link";
 import React from "react";
-
+import Image from "next/image";
+import pedicure from "../public/pedicure.png";
+import manicure from "../public/manicures.png";
+import wax from "../public/wax.png";
 export default function Previewservices() {
   return (
     <section className="py-12 sm:py-16 lg:py-20">
@@ -18,9 +21,9 @@ export default function Previewservices() {
         <div className="grid max-w-md grid-cols-1 gap-5 mx-auto mt-16 text-center lg:grid-cols-3 lg:max-w-none">
           <div className="relative overflow-hidden transition-all duration-200 border-2 rounded-lg border-zinc-300 hover:bg-dark-gray group">
             <div className="overflow-hidden aspect-w-16 aspect-h-9">
-              <img
+              <Image
                 className="object-cover w-full h-full transition-all duration-300 transform group-hover:scale-125"
-                src="/pedicure.png"
+                src={pedicure}
                 alt=""
               />
             </div>
@@ -60,9 +63,9 @@ export default function Previewservices() {
 
           <div className="relative overflow-hidden transition-all duration-200 border-2 rounded-lg border-zinc-300 hover:bg-dark-gray group">
             <div className="overflow-hidden aspect-w-16 aspect-h-9">
-              <img
+              <Image
                 className="object-cover w-full h-full transition-all duration-300 transform group-hover:scale-125 scale-105"
-                src="/manicures.png"
+                src={manicure}
                 alt=""
               />
             </div>
@@ -102,9 +105,9 @@ export default function Previewservices() {
 
           <div className="relative overflow-hidden transition-all duration-200 border-2 rounded-lg border-zinc-300 hover:bg-dark-gray group">
             <div className="overflow-hidden aspect-w-16 aspect-h-9">
-              <img
+              <Image
                 className="object-cover w-full h-full transition-all duration-300 transform group-hover:scale-125"
-                src="/wax.png"
+                src={wax}
                 alt=""
               />
             </div>
