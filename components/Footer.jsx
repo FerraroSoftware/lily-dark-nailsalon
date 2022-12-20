@@ -1,5 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import phone from "../public/phone.svg";
+import hours from "../public/hours-of-operation.svg";
 export default function Footer() {
   return (
     <footer className="py-12  sm:py-16 lg:py-20">
@@ -45,14 +48,14 @@ export default function Footer() {
               </li>
 
               <li className="flex items-start">
-                <img src="/phone.svg" alt="" />
+                <Image src={phone} alt="" />
                 <span className="ml-5 text-lg font-normal text-zinc-300 hover:text-yell500">
                   {" "}
                   <Link href="tel:4074208468">(407)-420-8468</Link>
                 </span>
               </li>
               <li className="flex items-start">
-                <img src="/hours-of-operation.svg" alt="" />
+                <Image src={hours} alt="" />
                 <span className="ml-5 text-lg font-normal text-zinc-300">
                   {" "}
                   Monday - Saturday: 10:00 AM - 7:00 PM Sunday: Closed

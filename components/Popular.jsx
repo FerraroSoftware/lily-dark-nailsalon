@@ -129,9 +129,9 @@ export default function Popular() {
                 {" "}
                 Book Now{" "}
               </Link>
-              <p className="mt-4 text-sm text-gray-500">
-                Also includes cut, file, foot scrub, callus treatment, massage,
-                hot towels, & polish.
+              <p className="mt-4 text-sm text-zinc-600">
+                Also includes foot scrub, callus treatment, massage, & hot
+                towels.
               </p>
             </div>
           </div>
@@ -252,7 +252,7 @@ export default function Popular() {
                 {" "}
                 Book Now{" "}
               </Link>
-              <p className="mt-4 text-sm text-gray-500">
+              <p className="mt-4 text-sm text-zinc-600">
                 Also includes cut, file, foot scrub, callus treatment, massage,
                 hot towels, & polish.
               </p>
@@ -376,7 +376,7 @@ export default function Popular() {
                 Book Now{" "}
               </Link>
 
-              <p className="mt-4 text-sm text-gray-500">
+              <p className="mt-4 text-sm text-zinc-600">
                 Also includes cut, file, foot scrub, callus treatment, massage,
                 hot towels, & polish.
               </p>
