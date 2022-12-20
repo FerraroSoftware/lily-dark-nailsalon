@@ -101,8 +101,9 @@ export default function Hero() {
       </div>
 
       <div className="absolute hidden transform -translate-x-1/2 lg:bottom-8 xl:bottom-12 left-1/2 lg:block">
-        <a
+        <Link
           href="#orlandoweekly"
+          aria-label="To orlando weekly section"
           title=""
           className="inline-flex items-center justify-center w-12 h-12 transition-all duration-200 rounded-full text-black hover:bg-zinc-900 hover:text-zinc-100 bg-zinc-300 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary animate-bounce"
           role="button"
@@ -121,7 +122,7 @@ export default function Hero() {
               d="M19 9l-7 7-7-7"
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   );
