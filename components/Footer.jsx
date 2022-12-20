@@ -8,9 +8,9 @@ export default function Footer() {
     <footer className="py-12  sm:py-16 lg:py-20">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="md:flex md:items-center md:justify-between">
-          <h5 className="max-w-xl text-3xl font-bold text-white sm:text-4xl xl:text-5xl ">
+          <h2 className="max-w-xl text-3xl font-bold text-white sm:text-4xl xl:text-5xl ">
             FLEXI MAKES <br></br>YOU SEXI
-          </h5>
+          </h2>
 
           <div className="max-w-sm mt-8 md:mt-0">
             <ul className="space-y-7">
