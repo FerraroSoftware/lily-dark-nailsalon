@@ -19,7 +19,8 @@ export default function Employees() {
           <div className="max-w-md mx-auto text-center lg:max-w-2xl">
             <h2 className="header">Meet Our Team</h2>
             <p className="mt-6 text-lg font-normal text-zinc-300">
-              Amet minim mollit non deserunt ullamco est sit aliqua
+              Book one of our talented nail technicians for your next
+              appointment.
             </p>
           </div>
 
