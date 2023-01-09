@@ -12,12 +12,12 @@ import nailart9 from "../public/nailart/nail-art-9.png";
 
 const files = [
   {
-    nailpic: "Spray Nails",
+    nailpic: "Holy Nails",
     size: "By Lily",
     source: nailart8,
   },
   {
-    nailpic: "Holy Nails",
+    nailpic: "Modern Nails",
     size: "By Lily",
     source: nailart2,
   },
@@ -28,32 +28,32 @@ const files = [
   },
 
   {
-    nailpic: "Modern Nails",
+    nailpic: "Spooky Nails",
     size: "By Lily",
     source: nailart3,
   },
   {
-    nailpic: "Spooky Nails",
+    nailpic: "Astrology Nails",
     size: "By Lily",
     source: nailart4,
   },
   {
-    nailpic: "Astrology Nails",
+    nailpic: "Spray Nails",
     size: "By Lily",
     source: nailart5,
   },
   {
-    nailpic: "Colored Up",
+    nailpic: "Peace Nails",
     size: "By Lily",
     source: nailart6,
   },
   {
-    nailpic: "Peace Nails",
+    nailpic: "Colored Nails",
     size: "By Lily",
     source: nailart7,
   },
   {
-    nailpic: "Peace Nails",
+    nailpic: "Cheetah Nails",
     size: "By Lily",
     source: nailart9,
   },
